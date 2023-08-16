@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.css";
-
 const Product = () => {
   const [products, getProducts] = useState([]);
   useEffect(() => {
