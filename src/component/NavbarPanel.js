@@ -9,7 +9,7 @@ const NavbarPanel = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="#">Reduc toolkit</Navbar.Brand>
+        <Navbar.Brand href="#">Redux toolkit</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Nav>
           <Nav.Link to="/" as={Link}>
